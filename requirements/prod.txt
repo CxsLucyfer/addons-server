@@ -2,7 +2,7 @@ Babel==2.13.1 \
     --hash=sha256:33e0952d7dd6374af8dbf6768cc4ddf3ccfefc244f9986d4074704f2fbd18900 \
     --hash=sha256:7077a4984b02b6727ac10f1f7294484f737443d7e2e66c5e4380e41a3ae0b4ed
 # Jinja2 is required by Sphinx
-Jinja2==3.1.2 \
+Jinja2==3.1.4 \
     --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852 \
     --hash=sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
 # MarkupSafe is required by Jinja2
