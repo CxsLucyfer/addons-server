@@ -2,7 +2,7 @@ Babel==2.13.1 \
     --hash=sha256:33e0952d7dd6374af8dbf6768cc4ddf3ccfefc244f9986d4074704f2fbd18900 \
     --hash=sha256:7077a4984b02b6727ac10f1f7294484f737443d7e2e66c5e4380e41a3ae0b4ed
 # Jinja2 is required by Sphinx
-Jinja2==3.1.2 \
+Jinja2==3.1.4 \
     --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852 \
     --hash=sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
 # MarkupSafe is required by Jinja2
@@ -378,7 +378,7 @@ dennis==1.1.0 \
 Deprecated==1.2.14 \
     --hash=sha256:6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c \
     --hash=sha256:e5323eb936458dccc2582dc6f9c322c852a775a27065ff2b0c4970b9d53d01b3
-Django==4.2.7 \
+Django==4.2.15 \
     --hash=sha256:8e0f1c2c2786b5c0e39fe1afce24c926040fad47c8ea8ad30aaf1188df29fc41 \
     --hash=sha256:e1d37c51ad26186de355cbcec16613ebdabfa9689bbade9c538835205a8abbe9
 django-aesfield==4.0.0 \
@@ -421,7 +421,7 @@ django-waffle==4.0.0 \
     --hash=sha256:125e0c5a95a9b54739c77693f7454d717c1ec82b43eb5eb3e6e1ad69c0f75fe6 \
     --hash=sha256:6426baad1573ca1908bd615650048f7948690f336058d37d3e3bb550ddf75cda
 # djangorestframework is required by drf-nested-routers
-djangorestframework==3.14.0 \
+djangorestframework==3.15.2 \
     --hash=sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8 \
     --hash=sha256:eb63f58c9f218e1a7d064d17a70751f528ed4e1d35547fdade9aaf4cd103fd08
 dockerflow==2022.8.0 \
@@ -550,7 +550,7 @@ redis==4.6.0 \
     --hash=sha256:585dc516b9eb042a619ef0a39c3d7d55fe81bdb4df09a52c9cdde0d07bf1aa7d \
     --hash=sha256:e2b03db868160ee4591de3cb90d40ebb50a90dd302138775937f6a42b7ed183c
 # requests is required by PyBrowserID, amo-validator, django-mozilla-product-details, docker-compose, docker-py, nobot, pytest-base-url, pyupio, safety
-requests==2.31.0 \
+requests==2.32.2 \
     --hash=sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f \
     --hash=sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1
 # sgmllib3k is required by feedparser
@@ -609,7 +609,7 @@ cachetools==5.3.2 \
     --hash=sha256:086ee420196f7b2ab9ca2db2520aca326318b68fe5ba8bc4d49cca91add450f2 \
     --hash=sha256:861f35a13a451f94e301ce2bec7cac63e881232ccce7ed67fab9b5df4d3beaa1
 # sqlparse is required by django2.2+
-sqlparse==0.4.4 \
+sqlparse==0.5.0 \
     --hash=sha256:5430a4fe2ac7d0f93e66f1efc6e1338a41884b7ddf2a350cedd20ccc4d9d28f3 \
     --hash=sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c
 yara-python==4.3.1 \
@@ -789,3 +789,4 @@ grpcio==1.59.3 \
     --hash=sha256:f2eb8f0c7c0c62f7a547ad7a91ba627a5aa32a5ae8d930783f7ee61680d7eb8d \
     --hash=sha256:fb111aa99d3180c361a35b5ae1e2c63750220c584a1344229abc139d5c891881 \
     --hash=sha256:fcfa56f8d031ffda902c258c84c4b88707f3a4be4827b4e3ab8ec7c24676320d
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
