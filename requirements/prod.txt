@@ -642,7 +642,7 @@ google-resumable-media==2.6.0 \
 proto-plus==1.22.3 \
     --hash=sha256:a49cd903bc0b6ab41f76bf65510439d56ca76f868adf0274e738bfdd096894df \
     --hash=sha256:fdcd09713cbd42480740d2fe29c990f7fbd885a67efc328aa8be6ee3e9f76a6b
-protobuf==4.25.1 \
+protobuf==4.25.8 \
     --hash=sha256:0bf384e75b92c42830c0a679b0cd4d6e2b36ae0cf3dbb1e1dfdda48a244f4bcd \
     --hash=sha256:0f881b589ff449bf0b931a711926e9ddaad3b35089cc039ce1af50b21a4ae8cb \
     --hash=sha256:1484f9e692091450e7edf418c939e15bfc8fc68856e36ce399aed6889dae8bb0 \
@@ -789,3 +789,4 @@ grpcio==1.59.3 \
     --hash=sha256:f2eb8f0c7c0c62f7a547ad7a91ba627a5aa32a5ae8d930783f7ee61680d7eb8d \
     --hash=sha256:fb111aa99d3180c361a35b5ae1e2c63750220c584a1344229abc139d5c891881 \
     --hash=sha256:fcfa56f8d031ffda902c258c84c4b88707f3a4be4827b4e3ab8ec7c24676320d
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
